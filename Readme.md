@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
 * Студент: [Валя Безруких](https://up.htmlacademy.ru/javascript-individual/1/user/2059137).
-* Наставник: [Мария Филиппова] (https://htmlacademy.ru/profile/wonderjs).
+* Наставник: [Мария Филиппова](https://htmlacademy.ru/profile/wonderjs).
 
 ---
 
