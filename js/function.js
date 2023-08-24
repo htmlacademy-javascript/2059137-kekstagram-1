@@ -1,6 +1,4 @@
-const isLessOrEqual = (string, length) => {
-  return string.length <= length;
-}
+const isLessOrEqual = (string, length) => string.length <= length;
 
 // eslint-disable-next-line no-console
 console.log(isLessOrEqual('от топота копыт пыль по полю летит', 20));
@@ -14,8 +12,8 @@ const isPalindrom = (string) => {
     reverseString += tempString.at(i);
   }
 
-  return tempString = reverseString;
-}
+  return tempString === reverseString;
+};
 
 // eslint-disable-next-line no-console
 console.log(isPalindrom('топот'));
@@ -28,7 +26,7 @@ const extractNumber = (string) => {
     }
   }
   return parseInt(result, 10);
-}
+};
 
 // eslint-disable-next-line no-console
 console.log(extractNumber('тяжелый 2022 год'));
@@ -39,7 +37,7 @@ const myPadString = (string, minLength, pad) => {
     return string;
   }
   return pad.slice(0, actualPad % pad.length) + pad.repeat(actualPad / pad.length) + string;
-}
+};
 
 // eslint-disable-next-line no-console
 console.log(myPadString('пузырь', 9, 'буп'));
